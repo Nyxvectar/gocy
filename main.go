@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"gocy/class"
 	"gocy/commandsl"
 )
 
@@ -10,7 +9,7 @@ func main() {
 	initation(false)
 	switchCmd(false)
 	//class.Piggy()
-	class.Consts()
+	//class.Consts()
 }
 
 func switchCmd(whether bool) {
