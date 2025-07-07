@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"gocy/class"
 )
 
 func main() {
@@ -15,6 +16,7 @@ func main() {
 	//commandsl.Infinity(10)
 	//commandsl.Variables()
 	//commandsl.Randomly(50)
+	class.Piggy()
 }
 
 func initation() {
