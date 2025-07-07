@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"gocy/commandsl"
 )
 
 func main() {
@@ -14,7 +13,8 @@ func main() {
 	//commandsl.SwitchTest2()
 	//commandsl.ForL(10)
 	//commandsl.Infinity(10)
-	commandsl.Variables()
+	//commandsl.Variables()
+	//commandsl.Randomly(50)
 }
 
 func initation() {

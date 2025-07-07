@@ -33,4 +33,6 @@ func Variables() {
 			println("Virgin Galactic")
 		}
 	}
+	// aboout transform betweent the domain,
+	// we need a thing, which is called pointer.
 }
