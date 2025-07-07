@@ -9,6 +9,7 @@ func main() {
 	// initation()
 	// commandsl.CalculateG()
 	commandsl.ForWhile()
+	commandsl.LogicalT()
 }
 
 func initation() {
