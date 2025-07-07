@@ -9,10 +9,16 @@ import (
 func main() {
 	initation(false)
 	switchCmd(false)
-	//class.Piggy()
-	//class.Consts()
-	class.TurnToTure("1")
-	class.TurnToFalse("1")
+	switchClass(false)
+}
+
+func switchClass(whether bool) {
+	if whether == true {
+		class.Piggy()
+		class.Consts()
+		class.TurnToTure("1")
+		class.TurnToFalse("1")
+	}
 }
 
 func switchCmd(whether bool) {
