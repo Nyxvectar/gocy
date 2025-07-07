@@ -1,4 +1,4 @@
-package main
+package commandsl
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ var a = 2
 var b = 3
 var dateG = "Aug 28, 2020"
 
-func main() {
+func CalculateG() {
 	basicR()
 	variablesAndConst()
 }
