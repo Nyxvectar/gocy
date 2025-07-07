@@ -2,14 +2,15 @@ package main
 
 import (
 	"fmt"
-	"gocy/commandsl"
 )
 
 func main() {
-	// initation()
-	// commandsl.CalculateG()
-	commandsl.ForWhile()
-	commandsl.LogicalT()
+	//initation()
+	//commandsl.CalculateG()
+	//commandsl.ForWhile()
+	//commandsl.LogicalT()
+	//commandsl.YearCheck(2002)
+
 }
 
 func initation() {

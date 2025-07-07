@@ -14,3 +14,17 @@ func LogicalT() {
 		print("both || and && could not run")
 	}
 }
+
+func YearCheck(year int) {
+	if year%100 == 0 {
+		if year%400 == 0 {
+			print("yes")
+		} else {
+			print("nope")
+		}
+	} else if year%4 == 0 {
+		print("yes")
+	} else {
+		print("nope")
+	}
+}
