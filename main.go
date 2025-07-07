@@ -12,7 +12,8 @@ func main() {
 	//commandsl.LogicalT()
 	//commandsl.YearCheck(2002)
 	//commandsl.SwitchTest2()
-	commandsl.ForL(10)
+	//commandsl.ForL(10)
+	commandsl.Infinity(10)
 }
 
 // TODO: For syntax

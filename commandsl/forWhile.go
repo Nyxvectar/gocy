@@ -2,6 +2,7 @@ package commandsl
 
 import (
 	"fmt"
+	"math/rand"
 	"os"
 	"strings"
 	"time"
@@ -66,4 +67,20 @@ func ForL(count int) {
 		time.Sleep(time.Second)
 		count--
 	}
+}
+
+func Infinity(degrees int) {
+	for {
+		fmt.Println(degrees)
+		degrees++
+		if degrees >= 20 {
+			degrees = 0
+			// each time degrees got 20 then it would trigger once
+			// random, so if it broke, the last num would be 20 forever.
+			if rand.Intn(2) == 0 {
+				break
+			}
+		}
+	}
+	println("If this sentence appears, golang still running after the break in for if.")
 }
