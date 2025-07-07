@@ -13,10 +13,9 @@ func main() {
 	//commandsl.YearCheck(2002)
 	//commandsl.SwitchTest2()
 	//commandsl.ForL(10)
-	commandsl.Infinity(10)
+	//commandsl.Infinity(10)
+	commandsl.Variables()
 }
-
-// TODO: For syntax
 
 func initation() {
 	s := "gopher"
