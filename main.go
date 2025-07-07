@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"gocy/commandsl"
 )
 
 func main() {
@@ -10,8 +11,13 @@ func main() {
 	//commandsl.ForWhile()
 	//commandsl.LogicalT()
 	//commandsl.YearCheck(2002)
-
+	commandsl.SwitchTest2()
 }
+
+// TODO: Fallthrough
+// TODO: For syntax
+// TODO: Which syntax
+// TODO: Case syntax
 
 func initation() {
 	s := "gopher"
