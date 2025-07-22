@@ -25,6 +25,23 @@ func Struc() {
 				n++
 				i++
 			}
+			// A classical manner to print a array is like this.
+			//  for k = 0; k < 'TheLengthYouKnow'; k++ {
+			//      fmt.Printf("balance3[%d] = %f\n", k, arrayName[k] )
+			//  }
+			{
+				var j, k int
+				balance2 := [...]float32{1000.0, 2.0, 3.4, 7.0, 50.0}
+				{
+					for j = 0; j < 5; j++ {
+						fmt.Printf("balance2[%d] = %f\n", j, balance2[j])
+					}
+					balance3 := [5]float32{1: 2.0, 3: 7.0}
+					for k = 0; k < 5; k++ {
+						fmt.Printf("balance3[%d] = %f\n", k, balance3[k])
+					}
+				}
+			}
 		}
 	}
 }
