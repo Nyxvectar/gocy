@@ -19,5 +19,30 @@ func PointerTrain() {
 		println("Nil output is like:", NilP)
 		// The nil one expected a output like 0x0
 	}
-
+	{
+		if NilP == nil {
+			println("NilP is a nil pointer")
+		} else if NilP != nil {
+			println("NilP is not a nil pointer")
+		} else {
+			print("Something wrong happened")
+		}
+	}
+	// Note:
+	// A affective way to use {} is like this:
+	// for i := 0; i < 1e6; i++ {
+	//	 {
+	//	 	 temp := newBuffer()
+	//	  	 process(temp)
+	//	 }
+	// }
+	// temp will be recycled immediately after
+	// the previous for syntax done.
+	// An improper way to use {} is like this:
+	{
+		var x = 1
+		println(x)
+		// The memory benefits is too low,
+		// So there is no need to use {}.
+	}
 }
