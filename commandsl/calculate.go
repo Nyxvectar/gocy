@@ -20,6 +20,14 @@ func CalculateG() {
 	variablesAndConst()
 }
 
+/** Notebook:
+The '&' means 'and', for example, 1 & 0 is equal to the result of
+1*0, so it is 0; and the '|' means 'or', such as 1|0 is equal to
+the consequence of 1+0, it is sure that the answer is 1 but not 0
+And the '^' means 'not', not 1 = 0 , and not 0 = 1, it is easy to
+understand.
+*/
+
 func variablesAndConst() {
 	const lightSpeed, distance = 299792, 800000000 //kms, ms
 	fmt.Printf("\nTime is %v", distance/1000/lightSpeed)
