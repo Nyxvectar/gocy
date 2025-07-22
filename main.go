@@ -8,18 +8,17 @@ package main
 
 import (
 	"fmt"
-	"gocy/block"
-	"gocy/class"
-	"gocy/commandsl"
-	"gocy/datac"
+	"siracusan/block"
+	"siracusan/class"
+	"siracusan/commandsl"
+	"siracusan/datac"
 )
 
 func main() {
 	initation(false)
 	switchCmd(false)
 	switchClass(false)
-	DraftEnable(false)
-	datac.RangeUsage()
+	DraftEnable(true)
 }
 
 func switchClass(whether bool) {
@@ -38,7 +37,7 @@ func switchClass(whether bool) {
 		}
 		{
 			datac.Slices()
-
+			datac.RangeUsage()
 		}
 	}
 }

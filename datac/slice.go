@@ -1,6 +1,6 @@
 /**
  * Author:  Nyxvectar Yan
- * Repo:    gocy
+ * Repo:    siracusan
  * Created: 07/22/2025
  */
 
@@ -16,15 +16,19 @@ func Slices() {
 		s = append(s, 1, 2, 3, 4, 5)
 		printSlice(s)
 	}
-	// The slice is using a same basic, so if
-	// You changed the variable u, the s will
-	// be edited together, due to they are us
-	// ing a same basical array.
+	/*
+		The slice is using a same basic, so if
+		You changed the variable u, the s will
+		be edited together, due to they are us
+		ing a same basical array.
+	*/
 	u[1] = 2
 	printSlice(u)
-	// This is an advantage of go slice, due
-	// to its improvement of performance and
-	// memory usage.
+	/*
+		This is an advantage of go slice, due
+		to its improvement of performance and
+		memory usage.
+	*/
 }
 
 func printSlice(x []int) {

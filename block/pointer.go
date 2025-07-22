@@ -30,23 +30,28 @@ func PointerTrain() {
 			print("Something wrong happened")
 		}
 	}
-	// Note:
-	// A affective way to use {} is like this:
-	// for i := 0; i < 1e6; i++ {
-	//	 {
-	//	 	 temp := newBuffer()
-	//	  	 process(temp)
-	//	 }
-	// }
-	// temp will be recycled immediately after
-	// the previous for syntax done.
-	// An improper way to use {} is like this:
+	/*
+		Note:
+		A affective way to use {} is like this:
+		for i := 0; i < 1e6; i++ {
+			 {
+			 	 temp := newBuffer()
+			  	 process(temp)
+			 }
+		}
+		temp will be recycled immediately after
+		the previous for syntax done.
+		An improper way to use {} is like this:
+	*/
 	{
 		var x = 1
 		println(x)
-		// The memory benefits is too low,
-		// So there is no need to use {}.
+		/*
+			The memory benefits is too low,
+			So there is no need to use {}.
+		*/
 		{
+
 			// But if you just want to made the code
 			// easy to be read, then for sure that
 			// the {} is a good choice to select.

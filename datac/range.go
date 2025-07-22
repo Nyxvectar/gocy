@@ -1,6 +1,6 @@
 /**
  * Author:  Nyxvectar Yan
- * Repo:    gocy
+ * Repo:    siracusan
  * Created: 07/22/2025
  */
 
@@ -25,12 +25,15 @@ func RangeUsage() {
 		map1[2] = 2.0
 		map1[3] = 3.0
 		map1[4] = 4.0
-		// When a function returns multiple results,
-		// if you only need the first one, then it
-		// just only been expected to do XX = FFF
-		// but if you need the more like the second
-		// there is in need to write 'XX1, XX2' or
-		// '_, XX2' and, etc. in same reason.
+
+		/*
+			When a function returns multiple results,
+			if you only need the first one, then it
+			just only been expected to do XX = FFF
+			but if you need the more like the second
+			there is in need to write 'XX1, XX2' or
+			'_, XX2' and, etc. in same reason.
+		*/
 		{
 			for key, value := range map1 {
 				fmt.Printf("key is: %d - value is: %f\n", key, value)
