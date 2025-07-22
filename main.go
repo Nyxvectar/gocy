@@ -8,15 +8,22 @@ package main
 
 import (
 	"fmt"
+	"gocy/block"
 	"gocy/class"
 	"gocy/commandsl"
 )
 
 func main() {
+	var a = 100
+	var b = 200
+	var temp int
+
 	initation(false)
 	switchCmd(false)
 	switchClass(false)
-	DraftEnable(true)
+	DraftEnable(false)
+	temp = block.Demo(a, b)
+	println(temp)
 }
 
 func switchClass(whether bool) {
