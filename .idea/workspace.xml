@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33a4c7d8-543d-4bc7-ad08-37c60a1e8159" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/datac/case.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datac/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/datac/map.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file:///nix/store/9s1r393dnb5mygiq5f9yxy76nxpkz1gw-go-1.24.4/share/go" />
   <component name="Git.Settings">
@@ -22,12 +29,16 @@
   "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="30DVxArTUSI3kIVcnOKSW3V2R9G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
     "Go Build.go build map.go.executor": "Debug",
     "Go Build.go build siracusan.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
