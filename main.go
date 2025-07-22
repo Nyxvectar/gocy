@@ -16,6 +16,7 @@ func main() {
 	initation(false)
 	switchCmd(false)
 	switchClass(false)
+	DraftEnable(true)
 }
 
 func switchClass(whether bool) {
