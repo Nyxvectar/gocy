@@ -19,7 +19,7 @@ func main() {
 	switchCmd(false)
 	switchClass(false)
 	DraftEnable(false)
-	datac.Slices()
+	datac.RangeUsage()
 }
 
 func switchClass(whether bool) {
@@ -35,6 +35,10 @@ func switchClass(whether bool) {
 			block.Struc()
 			block.PointerTrain()
 			block.Book()
+		}
+		{
+			datac.Slices()
+
 		}
 	}
 }
