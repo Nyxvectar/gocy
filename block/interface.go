@@ -6,6 +6,8 @@
 
 package block
 
+import "fmt"
+
 type makeSound interface {
 	speaker()
 }
@@ -35,4 +37,20 @@ func InterfaceTrain() {
 	var d = Dog{name: "玄离"}
 	LetItGo(p)
 	LetItGo(d)
+	{
+		var i interface{} = 42
+		if str, ok := i.(string); ok {
+			fmt.Println("String:", str)
+		} else {
+			fmt.Println("Not a string")
+		}
+	}
+	printValue(42)
+	printValue("hello")
+	printValue(3.14)
+	printValue([]int{1, 2})
+}
+
+func printValue(val interface{}) {
+	fmt.Printf("Value: %v, Type: %T\n", val, val)
 }
