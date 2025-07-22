@@ -11,6 +11,7 @@ import (
 	"gocy/block"
 	"gocy/class"
 	"gocy/commandsl"
+	"gocy/datac"
 )
 
 func main() {
@@ -18,18 +19,23 @@ func main() {
 	switchCmd(false)
 	switchClass(false)
 	DraftEnable(false)
-	block.Book()
+	datac.Slices()
 }
 
 func switchClass(whether bool) {
 	if whether == true {
-		class.Piggy()
-		class.Consts()
-		class.TurnToTure("1")
-		class.TurnToFalse("1")
-		block.Demo(10, 20)
-		block.Struc()
-		block.PointerTrain()
+		{
+			class.Piggy()
+			class.Consts()
+			class.TurnToTure("1")
+			class.TurnToFalse("1")
+		}
+		{
+			block.Demo(10, 20)
+			block.Struc()
+			block.PointerTrain()
+			block.Book()
+		}
 	}
 }
 
