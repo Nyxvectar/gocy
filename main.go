@@ -18,7 +18,7 @@ func main() {
 	switchCmd(false)
 	switchClass(false)
 	DraftEnable(false)
-	block.Struc()
+	block.PointerTrain()
 }
 
 func switchClass(whether bool) {
@@ -28,6 +28,7 @@ func switchClass(whether bool) {
 		class.TurnToTure("1")
 		class.TurnToFalse("1")
 		block.Demo(10, 20)
+		block.Struc()
 	}
 }
 
