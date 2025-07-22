@@ -9,4 +9,4 @@ between projects.
 Structure follows my revising flow ,  feel  free  to  explore ,  but  expect  minimal       
 documentation. Contributions not expected as this is purely a personal reference.       
 
-Happy coding.       
+Happy coding.
