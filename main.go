@@ -19,7 +19,6 @@ func main() {
 	switchCmd(false)
 	switchClass(false)
 	DraftEnable(false)
-	datac.Convert()
 }
 
 func switchClass(whether bool) {
@@ -41,7 +40,7 @@ func switchClass(whether bool) {
 			datac.RangeUsage()
 			datac.MapT()
 			datac.CaseTrain()
-
+			datac.Convert()
 		}
 	}
 }
