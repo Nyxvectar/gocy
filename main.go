@@ -14,16 +14,11 @@ import (
 )
 
 func main() {
-	var a = 100
-	var b = 200
-	var temp int
-
 	initation(false)
 	switchCmd(false)
 	switchClass(false)
 	DraftEnable(false)
-	temp = block.Demo(a, b)
-	println(temp)
+	block.Struc()
 }
 
 func switchClass(whether bool) {
@@ -32,6 +27,7 @@ func switchClass(whether bool) {
 		class.Consts()
 		class.TurnToTure("1")
 		class.TurnToFalse("1")
+		block.Demo(10, 20)
 	}
 }
 
