@@ -6,6 +6,8 @@
 
 package block
 
+import "fmt"
+
 func PointerTrain() {
 	var NilP *int
 	var temp1, temp2 = 1, 2
@@ -44,5 +46,19 @@ func PointerTrain() {
 		println(x)
 		// The memory benefits is too low,
 		// So there is no need to use {}.
+		{
+			// But if you just want to made the code
+			// easy to be read, then for sure that
+			// the {} is a good choice to select.
+			var tt int
+			var ptr *int
+			var pptr **int
+			tt = 3000
+			ptr = &tt
+			pptr = &ptr
+			fmt.Printf("a = %d\n", tt)
+			fmt.Printf("Pointer *ptr = %d\n", *ptr)
+			fmt.Printf("Pointer to Pointer **pptr = %d\n", **pptr)
+		}
 	}
 }
