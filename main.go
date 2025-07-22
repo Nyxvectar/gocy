@@ -18,7 +18,8 @@ func main() {
 	initation(false)
 	switchCmd(false)
 	switchClass(false)
-	DraftEnable(true)
+	DraftEnable(false)
+	datac.MapT()
 }
 
 func switchClass(whether bool) {
