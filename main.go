@@ -19,6 +19,7 @@ func main() {
 	switchCmd(false)
 	switchClass(false)
 	DraftEnable(false)
+	block.InterfaceTrain()
 }
 
 func switchClass(whether bool) {
