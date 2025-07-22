@@ -8,22 +8,41 @@ package main
 
 import (
 	"fmt"
-	"gocy/class"
-	"gocy/commandsl"
+	"siracusan/block"
+	"siracusan/class"
+	"siracusan/commandsl"
+	"siracusan/datac"
 )
 
 func main() {
 	initation(false)
 	switchCmd(false)
 	switchClass(false)
+	DraftEnable(false)
+	block.InterfaceTrain()
 }
 
 func switchClass(whether bool) {
 	if whether == true {
-		class.Piggy()
-		class.Consts()
-		class.TurnToTure("1")
-		class.TurnToFalse("1")
+		{
+			class.Piggy()
+			class.Consts()
+			class.TurnToTure("1")
+			class.TurnToFalse("1")
+		}
+		{
+			block.Demo(10, 20)
+			block.Struc()
+			block.PointerTrain()
+			block.Book()
+		}
+		{
+			datac.Slices()
+			datac.RangeUsage()
+			datac.MapT()
+			datac.CaseTrain()
+			datac.Convert()
+		}
 	}
 }
 
